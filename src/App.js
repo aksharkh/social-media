@@ -18,12 +18,12 @@ function App() {
   const currentUser = true;
   const Layout = () => {
     return (
-      <div>
+      <div className="theme-dark">
         <Navbar />
-        <div >
+        <div style={{display: "flex"}}>
           <Leftbar />
-          <div >
-            <Outlet />
+          <div style={{flex:6}}>
+          <Outlet />
           </div>
           <Rightbar />
         </div>
