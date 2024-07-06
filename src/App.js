@@ -18,7 +18,7 @@ function App() {
   const currentUser = true;
   const Layout = () => {
     return (
-      <div className="theme-dark">
+      <div className="theme-light">
         <Navbar />
         <div style={{display: "flex"}}>
           <Leftbar />
